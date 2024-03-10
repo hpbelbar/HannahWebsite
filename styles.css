@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(dark-green-color-solid-background-1920x1080.png);
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: yellow; /* Change container background color */
+    border-radius: 20px; /* Change container border radius to make it a message shape */
+    border: 2px solid black; /* Change container border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+/* Input Styles */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Eye Icon Button Styles */
+.input-group-text {
+    cursor: pointer;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+}
+
+/* Country Code Input Styles */
+#countryCode {
+    padding-left: 50px; /* To accommodate the flag icon */
+}
+
+/* Address Fields Styles */
+.row.mt-4 h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+/* Error pop-up box for forms*/
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
